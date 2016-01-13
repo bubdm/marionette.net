@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marionette.Chat", "Marionet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marionette.Authentication", "Marionette.Authentication\Marionette.Authentication.csproj", "{97E38407-6490-4F8C-B042-40C2D4992AD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marionette.Configuration", "Marionette.Configuration\Marionette.Configuration.csproj", "{8AB1D97B-3D16-4929-8BBB-E662C6BFC443}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{97E38407-6490-4F8C-B042-40C2D4992AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E38407-6490-4F8C-B042-40C2D4992AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E38407-6490-4F8C-B042-40C2D4992AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB1D97B-3D16-4929-8BBB-E662C6BFC443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB1D97B-3D16-4929-8BBB-E662C6BFC443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB1D97B-3D16-4929-8BBB-E662C6BFC443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB1D97B-3D16-4929-8BBB-E662C6BFC443}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +51,6 @@ Global
 		{0553A8C9-4A37-46A5-925E-FF183FEA39F6} = {B728C188-AB74-466B-B618-6E0810D0BA5D}
 		{E40ED6D9-0A74-40F6-8DD2-D77593D1EB12} = {89A9C13D-50F4-4EA2-BACB-122E167090A5}
 		{97E38407-6490-4F8C-B042-40C2D4992AD6} = {89A9C13D-50F4-4EA2-BACB-122E167090A5}
+		{8AB1D97B-3D16-4929-8BBB-E662C6BFC443} = {89A9C13D-50F4-4EA2-BACB-122E167090A5}
 	EndGlobalSection
 EndGlobal

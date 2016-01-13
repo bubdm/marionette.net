@@ -50,14 +50,5 @@ namespace Marionette
             this.AggregateCatalog.Catalogs.Add(catalog);
 
         }
-
-        /// <summary>
-        /// We don't want the default catalog type, so override it.
-        /// </summary>
-        /// <returns>A ConfigurationModuleCatalog</returns>
-        protected override IModuleCatalog CreateModuleCatalog()
-        {
-            return base.CreateModuleCatalog();
-        }
     }
 }

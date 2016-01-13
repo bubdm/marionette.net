@@ -46,6 +46,7 @@
     <Compile Include="ChatEvent.cs" />
     <Compile Include="Interfaces\IAuthenticationService.cs" />
     <Compile Include="Interfaces\IChatService.cs" />
+    <Compile Include="Interfaces\IConfigurationService.cs" />
     <Compile Include="Models\ChatEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
