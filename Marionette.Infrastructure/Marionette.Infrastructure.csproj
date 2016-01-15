@@ -48,6 +48,7 @@
     <Compile Include="Interfaces\IChatService.cs" />
     <Compile Include="Interfaces\IConfigurationService.cs" />
     <Compile Include="Models\ChatEventArgs.cs" />
+    <Compile Include="Models\TwitchScopes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

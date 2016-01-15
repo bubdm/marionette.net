@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace Marionette.Chat
 {
-    [ModuleExport(typeof(ChatModule), DependsOnModuleNames= new string[] { "AuthenticationModule"})]
-    class ChatModule : IModule
+    [ModuleExport(typeof(ChatModule), DependsOnModuleNames= new string[] { "ConnectionModule"})]
+    public class ChatModule : IModule
     {
         public void Initialize()
         {

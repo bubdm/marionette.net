@@ -12,5 +12,14 @@ namespace Marionette.Authentication.Services
     [PartCreationPolicy(CreationPolicy.Shared)]
     class AuthenticationService : IAuthenticationService
     {
+        public bool IsAuthorizationComplete
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public string AuthorizationToken
+        {
+            get { throw new NotImplementedException(); }
+        }
     }
 }

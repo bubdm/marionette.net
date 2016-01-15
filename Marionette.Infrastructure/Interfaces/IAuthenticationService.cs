@@ -8,5 +8,8 @@ namespace Marionette.Infrastructure.Interfaces
 {
     public interface IAuthenticationService
     {
+        public bool IsAuthorizationComplete { get; }
+
+        public string AuthorizationToken { get; }
     }
 }

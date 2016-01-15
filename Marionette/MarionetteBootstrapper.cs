@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using Marionette.Chat;
+using Marionette.Authentication;
 
 namespace Marionette
 {
@@ -43,8 +45,8 @@ namespace Marionette
             base.ConfigureAggregateCatalog();
 
             this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(MarionetteBootstrapper).Assembly));
-            //this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(ChatModule).Assembly));
-            //this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(AuthenticationModule).Assembly));
+            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(AuthenticationModule).Assembly));
+            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(ChatModule).Assembly));
 
             var catalog = new DirectoryCatalog("plugins");
             this.AggregateCatalog.Catalogs.Add(catalog);
